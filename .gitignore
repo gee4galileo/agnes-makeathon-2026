@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables (contains secrets — NEVER commit)
+.env
+
+# Kiro IDE files
+.kiro/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.hypothesis/
+htmlcov/
+.coverage
+coverage.xml
+
+# cognee local database
+cognee_db/
+.cognee_system/
+
+# Logs
+*.log
+
+# PuLP solver temp files
+*.mps
+*.sol
+*.lp
+
+# Assets (large binaries, docx files — keep enrichment evidence only)
+assets/*.docx
+assets/*.pptx
+assets/*.sqlite
+assets/db.sqlite
+
+# Scheduler (production config, not used in demo)
+scheduler/
+scheduler/README.md
